@@ -33,13 +33,16 @@ body {
 
 main {
     width: fit-content;
-    margin: 10rem auto;
+    margin: 7rem auto;
 }
 
 .qr-card {
     background-color: var(--color-white);
     border-radius: 1rem;
     padding: 1rem;
+    box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.4);
 }
 
 .image-container {
